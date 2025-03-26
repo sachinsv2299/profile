@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Sachin</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+</head>
+<body>
+  <header>
+    <h1>Sachin.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="photography.html">Photography</a>
+            <a href="services.html">Services</a>
+            <a href="#">Contact</a>
+    </nav>
+  </header>
+
+    <section class="contact-section">
+      <h1>Contact Me</h1>
+      <p>Have a question or want to work together? Send me a message below:</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="title" placeholder="Title" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+       </form>
+        <p id="status"></p>
+    </section>
+
+    <script src="contact.js"></script>
+</body>
+</html>

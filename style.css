@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00ffb3;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+#typing-text {
+    color: #00ffb3;
+}
+
+.hero-content p {
+    margin-top: 30px;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+
+.socials {
+    margin-top: 35px;
+}
+
+.socials a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 22px;
+    color: #00ffb3;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid #00ffb3;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00ffb3;
+    color: #0f172a;
+}
+
+.btn-outline {
+    border-color: #fff;
+}
+
+.btn-outline:hover {
+    background: #fff;
+    color: #0f172a;
+}
+
+.hero-img img {
+    max-width: 300px;
+    border-radius: 50%;
+    background: #00ffb3;
+    padding: 20px;
+}
+
+.fab {
+    padding: 10px;
+}

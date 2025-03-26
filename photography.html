@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography-Sachin</title>
+    <link rel="stylesheet" href="photography.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Sachin.</div>
+        <nav>
+            <a href="index.html">Home</a>
+           
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="photography.html">Photography</a>
+             <a href="service.html">Services</a>
+            <a href="contact.html">Contact</a>  
+        </nav>
+    </header>
+
+    <section class="photography-section">
+        <h1>Photography - It's My Passion</h1>
+        <div class="filter-buttons">         
+            <button onclick="filterPhotos('all')">All</button>
+            <button onclick="filterPhotos('nature')">Nature</button>
+            <button onclick="filterPhotos('city')">City</button>
+            <button onclick="filterPhotos('portrait')">Portrait</button>
+        </div>
+        <div class="photo-gallery" id="photo-gallery">
+            <!-- Photos will be dynamically added here -->
+        </div>
+    </section>
+
+    <script src="photography.js"></script>
+</body>
+</html>
