@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f172a;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #00ffb3;
+}
+
+/* Mobile Menu */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #00ffb3;
+}
+
+/* Services Section */
+.service-section {
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.service-card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.service-card h2 {
+    color: #00ffb3;
+}
+
+.service-card p {
+    color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #1e293b;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .service-section {
+        max-width: 95%;
+        margin: 40px auto;
+    }
+
+    .service-card {
+        padding: 15px;
+        margin: 15px;
+    }
+}
