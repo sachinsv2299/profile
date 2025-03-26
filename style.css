@@ -7,9 +7,10 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 30px 100px;
+    padding: 40px 80px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
