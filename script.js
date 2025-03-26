@@ -1,4 +1,4 @@
-const textArray = ["Data Analyst","Design Enthusiast","IT Engineer"];
+const textArray = ["Data Analyst", "Design Enthusiast", "IT Engineer"];
 let index = 0;
 let charIndex = 0;
 let typingSpeed = 150;
