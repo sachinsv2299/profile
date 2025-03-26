@@ -135,7 +135,7 @@ nav a:hover {
 
     .hero-img img {
         max-width: 220px;
-        margin-top: -10px; /* Move image slightly closer to paragraph */
+        margin-top: -50px; /* Move image slightly closer to paragraph */
     }
 
     nav {
